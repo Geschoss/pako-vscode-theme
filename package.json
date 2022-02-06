@@ -1,0 +1,41 @@
+{
+    "name": "pako-vscode-theme",
+    "displayName": "pako-vscode-theme",
+    "description": "theme for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "sql",
+                "extensions": [
+                    ".sql"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "sql",
+                "scopeName": "source.sql",
+                "path": "./language/sql/SQL.plist"
+            }
+        ],
+        "themes": [
+            {
+                "label": "pako-white",
+                "uiTheme": "vs",
+                "path": "./theme/white-color-theme.json"
+            },
+            {
+                "label": "pako-dark",
+                "uiTheme": "vs",
+                "path": "./theme/dark-color-theme.json"
+            }
+        ]
+    }
+}
