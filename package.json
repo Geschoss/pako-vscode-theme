@@ -2,9 +2,14 @@
     "name": "pako-vscode-theme",
     "displayName": "pako-vscode-theme",
     "description": "theme for vscode",
+    "publisher": "pako",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.64.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Geschoss/pako-vscode-theme"
     },
     "categories": [
         "Programming Languages"
@@ -37,5 +42,6 @@
                 "path": "./theme/dark-color-theme.json"
             }
         ]
-    }
+    },
+    "license": "(MIT OR Apache-2.0)"
 }
