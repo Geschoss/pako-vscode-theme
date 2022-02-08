@@ -408,8 +408,8 @@
 		"welcomePage.buttonBackground": "#111111",
 		"welcomePage.buttonHoverBackground": "#111111",
 		"widget.shadow": "#bbbbbb33",
-		"window.activeBorder": "#bbbbbb88",
-		"window.inactiveBorder": "#bbbbbb33"
+		"window.activeBorder": "#000000",
+		"window.inactiveBorder": "#000000"
 	},
 	"tokenColors": [
 		{
