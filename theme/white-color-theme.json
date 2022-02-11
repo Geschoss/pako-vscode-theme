@@ -97,7 +97,8 @@
 				"meta.type",
 				"keyword.control",
 				"entity.name.type",
-				"keyword.operator.new"
+				"keyword.operator.new",
+				"storage.modifier.async.js"
 			],
 			"settings": {
 				"foreground": "#0d4a91"
