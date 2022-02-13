@@ -413,6 +413,14 @@
 	},
 	"tokenColors": [
 		{
+			"scope": [
+				"meta.template.expression.js",
+			],
+			"settings": {
+				"foreground": "#BBBBBB"
+			}
+		},
+		{
 			"name": "Comments",
 			"scope": [
 				"comment",
@@ -446,7 +454,8 @@
 				"keyword.control",
 				"entity.name.type",
 				"keyword.operator.new",
-				"storage.modifier.async.js"
+				"storage.modifier.async.js",
+				"keyword.operator.expression.delete.js",
 			],
 			"settings": {
 				"foreground": "#3b8ff0"

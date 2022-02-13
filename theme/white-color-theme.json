@@ -3,6 +3,14 @@
 	"name": "pako-white",
 	"tokenColors": [
 		{
+			"scope": [
+				"meta.template.expression.js",
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
 			"name": "Comments",
 			"scope": [
 				"comment",
@@ -98,7 +106,8 @@
 				"keyword.control",
 				"entity.name.type",
 				"keyword.operator.new",
-				"storage.modifier.async.js"
+				"storage.modifier.async.js",
+				"keyword.operator.expression.delete.js",
 			],
 			"settings": {
 				"foreground": "#0d4a91"
