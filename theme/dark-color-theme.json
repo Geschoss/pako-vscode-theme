@@ -530,6 +530,15 @@
 				"background": "#DDFFDD",
 				"foreground": "#bbbbbb"
 			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
+			],
+			"settings": {
+				"foreground": "#CC8BC9"
+			}
 		}
 	]
 }

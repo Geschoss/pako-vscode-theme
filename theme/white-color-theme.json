@@ -151,6 +151,15 @@
 			"settings": {
 				"foreground": "#325CC0"
 			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx"
+			],
+			"settings": {
+				"foreground": "#CC8BC9"
+			}
 		}
 	],
 	"colors": {
