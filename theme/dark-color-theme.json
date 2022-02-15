@@ -474,6 +474,7 @@
 		{
 			"name": "Numbers, Characters",
 			"scope": [
+				"variable.language.this.js",
 				"constant.numeric",
 				"constant.character",
 				"constant.keyword",
