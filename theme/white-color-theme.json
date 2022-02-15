@@ -155,6 +155,7 @@
 		},
 		{
 			"scope": [
+				"storage.support.type.pascal",
 				"support.type.primitive.ts",
 				"support.type.primitive.tsx"
 			],

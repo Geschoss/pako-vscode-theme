@@ -17,6 +17,25 @@
     "contributes": {
         "languages": [
             {
+				"id": "pascal",
+				"aliases": [
+					"Pascal",
+					"pascal"
+				],
+				"extensions": [
+					".pas",
+					".p",
+					".dfm",
+					".fmx",
+					".dpr",
+					".dpk",
+					".lfm",
+					".dpr",
+					".lpr"
+				],
+				"configuration": "./pascal/configuration.json"
+			},
+            {
                 "id": "sql",
                 "extensions": [
                     ".sql"
@@ -24,6 +43,11 @@
             }
         ],
         "grammars": [
+            {
+				"language": "pascal",
+				"scopeName": "source.pascal",
+				"path": "./pascal/pascal.tmLanguage"
+			},
             {
                 "language": "sql",
                 "scopeName": "source.sql",

@@ -464,6 +464,7 @@
 		},
 		{
 			"scope": [
+				"storage.support.type.pascal",
 				"storage.type"
 			],
 			"settings": {
