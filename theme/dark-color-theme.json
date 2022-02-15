@@ -450,6 +450,7 @@
 		},
 		{
 			"scope": [
+				"keyword.pascal",
 				"meta.type",
 				"keyword.control",
 				"entity.name.type",

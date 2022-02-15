@@ -140,6 +140,7 @@
 		{
 			"name": "SQL_3",
 			"scope": [
+				"keyword.pascal",
 				"keyword.other.DML.sql",
 				"keyword.other.sql",
 				"meta.alter.sql",
