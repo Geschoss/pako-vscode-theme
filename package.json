@@ -3,7 +3,7 @@
     "displayName": "pako-vscode-theme",
     "description": "theme for vscode",
     "publisher": "pako",
-    "version": "0.14.0",
+    "version": "0.15.0",
     "engines": {
         "vscode": "^1.63.0"
     },
