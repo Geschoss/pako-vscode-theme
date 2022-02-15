@@ -33,7 +33,7 @@
                     ".dpr",
                     ".lpr"
                 ],
-                "configuration": "./pascal/pascal.configuration.json"
+                "configuration": "./language/pascal/pascal.configuration.json"
             },
             {
                 "id": "sql",
@@ -46,7 +46,7 @@
             {
                 "language": "pascal",
                 "scopeName": "source.pascal",
-                "path": "./pascal/pascal.tmLanguage"
+                "path": "./language/pascal/pascal.tmLanguage"
             },
             {
                 "language": "sql",
