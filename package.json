@@ -33,7 +33,7 @@
                     ".dpr",
                     ".lpr"
                 ],
-                "configuration": "./pascal/configuration.json"
+                "configuration": "./pascal/pascal.configuration.json"
             },
             {
                 "id": "sql",
