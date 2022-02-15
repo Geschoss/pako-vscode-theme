@@ -3,7 +3,7 @@
     "displayName": "pako-vscode-theme",
     "description": "theme for vscode",
     "publisher": "pako",
-    "version": "0.12.0",
+    "version": "0.13.0",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -17,24 +17,24 @@
     "contributes": {
         "languages": [
             {
-				"id": "pascal",
-				"aliases": [
-					"Pascal",
-					"pascal"
-				],
-				"extensions": [
-					".pas",
-					".p",
-					".dfm",
-					".fmx",
-					".dpr",
-					".dpk",
-					".lfm",
-					".dpr",
-					".lpr"
-				],
-				"configuration": "./pascal/configuration.json"
-			},
+                "id": "pascal",
+                "aliases": [
+                    "Pascal",
+                    "pascal"
+                ],
+                "extensions": [
+                    ".pas",
+                    ".p",
+                    ".dfm",
+                    ".fmx",
+                    ".dpr",
+                    ".dpk",
+                    ".lfm",
+                    ".dpr",
+                    ".lpr"
+                ],
+                "configuration": "./pascal/configuration.json"
+            },
             {
                 "id": "sql",
                 "extensions": [
@@ -44,10 +44,10 @@
         ],
         "grammars": [
             {
-				"language": "pascal",
-				"scopeName": "source.pascal",
-				"path": "./pascal/pascal.tmLanguage"
-			},
+                "language": "pascal",
+                "scopeName": "source.pascal",
+                "path": "./pascal/pascal.tmLanguage"
+            },
             {
                 "language": "sql",
                 "scopeName": "source.sql",
