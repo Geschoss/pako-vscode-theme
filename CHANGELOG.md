@@ -1,3 +1,3 @@
 ## [Unreleased]
 
-- Initial release
+- update dark theme
