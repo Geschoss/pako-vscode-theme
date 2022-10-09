@@ -3,7 +3,7 @@
     "displayName": "pako-vscode-theme",
     "description": "theme for vscode",
     "publisher": "pako",
-    "version": "0.20.0",
+    "version": "0.21.0",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -56,13 +56,15 @@
         ],
         "themes": [
             {
+                "id": "pako-white",
                 "label": "pako-white",
                 "uiTheme": "vs",
                 "path": "./theme/white-color-theme.json"
             },
             {
+                "id": "pako-dark",
                 "label": "pako-dark",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./theme/dark-color-theme.json"
             }
         ]
