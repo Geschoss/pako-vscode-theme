@@ -3,6 +3,18 @@
     "name": "pako-white",
     "tokenColors": [
         {
+            "scope": ["keyword.other.fn.rust"],
+            "settings": {
+                "foreground": "#5186A7"
+            }
+        },
+        {
+            "scope": ["entity.name.function.macro.rust"],
+            "settings": {
+                "foreground": "#7A3E9D"
+            }
+        },
+        {
             "scope": ["heading.3.markdown"],
             "settings": {
                 "fontStyle": "bold",
